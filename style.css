@@ -1739,9 +1739,7 @@
       justify-content: center;
       align-items: center;
   }
-  #banner-1403 .cs-link:last-of-type {
-      /* remove the chevron on the last list item */
-  }
+  
   #banner-1403 .cs-link:last-of-type::after {
       display: none;
   }
@@ -2478,9 +2476,7 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #contact-1780 {
-    /* using flex: 1 on both group elements to ensure they're both the same width */
-  }
+  
   #contact-1780 .cs-container {
     flex-direction: row;
     align-items: center;
