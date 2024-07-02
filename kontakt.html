@@ -201,8 +201,14 @@
             </ul>
         </div>
         <!--Form-->
-        <form class="cs-form" id="cs-form-1403" name="Contact Form" method="post">
+        <form class="cs-form" id="cs-form-1403" name="Contact Form" action="https://api.web3forms.com/submit" method="post">
             <h3 class="cs-h3">Termin vereinbaren</h3>
+            <!-- Access Key for Web3Forms -->
+            <input type="hidden" name="access_key" value="ba0089f2-315a-4c13-9bfd-bbadb25edb58">
+            <input type="hidden" name="redirect" value="https://bauelemente-experte.de/">
+            
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             <label class="cs-label">
                 Name
                 <input class="cs-input" required type="text" id="name-1403" name="name" placeholder="Name">
