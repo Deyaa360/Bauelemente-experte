@@ -65,8 +65,9 @@
             color: var(--bodyTextColor);
         }
     </style>
-</head>
-<!-- ============================================ -->
+</head>                                
+<body>
+    <!-- ============================================ -->
     <!--                 Navigation                   -->
     <!-- ============================================ -->
 
@@ -134,114 +135,112 @@
             <a href="kontakt.html" class="cs-button-solid cs-nav-button">Kontaktieren Sie uns</a>
         </div>
     </header>
+    
+    <main>
+        <!-- ============================================ -->
+        <!--                   Banner                     -->
+        <!-- ============================================ -->
 
-                                
-<body>
-<!-- ============================================ -->
-<!--                   Banner                     -->
-<!-- ============================================ -->
-
-<div id="banner-1403">
-    <div class="cs-container">
-        <span class="cs-int-title">Kontaktieren Sie uns</span>
-        <div class="cs-breadcrumbs">
-            <a href="index.html" class="cs-link">Startseite</a>
-            <a href="#" class="cs-link cs-active">Kontakt</a>
+        <div id="banner-1403">
+            <div class="cs-container">
+                <span class="cs-int-title">Kontaktieren Sie uns</span>
+                <div class="cs-breadcrumbs">
+                    <a href="index.html" class="cs-link">Startseite</a>
+                    <a href="#" class="cs-link cs-active">Kontakt</a>
+                </div>
+            </div>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="background-m.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="background.webp">
+                <img decoding="async" src="background.webp" alt="Hintergrundbild" width="1280" height="568" aria-hidden="true">
+            </picture>
         </div>
-    </div>
-    <!--Background Image-->
-    <picture class="cs-background">
-        <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="background-m.webp">
-        <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="background.webp">
-        <img decoding="async" src="background.webp" alt="Hintergrundbild" width="1280" height="568" aria-hidden="true">
-    </picture>
-</div>
-                                
-<!-- ============================================ -->
-<!--                   Contact                    -->
-<!-- ============================================ -->
+                                        
+        <!-- ============================================ -->
+        <!--                   Contact                    -->
+        <!-- ============================================ -->
 
-<section id="contact-1403">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">Kontakt</span>
-            <h2 class="cs-title">Kontaktieren Sie uns</h2>
-            <p class="cs-text">
-                Wir sind ein Team von leidenschaftlichen und kreativen Fachleuten, die sich darauf spezialisiert haben, maßgeschneiderte Lösungen für Fenster, Türen und Beschattungssysteme zu bieten.
-            </p>
-            <ul class="cs-ul">
-                <li class="cs-li">
-                    <picture class="cs-icon-wrapper">
-                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="Telefon-Icon" class="cs-icon" width="40" height="40" decoding="async">
-                    </picture>
-                    <div class="cs-flex-group">
-                        <span class="cs-header">Telefon</span>
-                        <a href="tel:+4915771365735" class="cs-link">+49 1577 1365735</a>
-                    </div>
-                </li>
-                <li class="cs-li">
-                    <picture class="cs-icon-wrapper">
-                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="Email-Icon" class="cs-icon" width="40" height="40" decoding="async">
-                    </picture>
-                    <div class="cs-flex-group">
-                        <span class="cs-header">Email</span>
-                        <a href="mailto:info@bauelemente-experte.de" class="cs-link">info@bauelemente-experte.de</a>
-                    </div>
-                </li>
-                <li class="cs-li">
-                    <picture class="cs-icon-wrapper">
-                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="Adresse-Icon" class="cs-icon" width="40" height="40" decoding="async">
-                    </picture>
-                    <div class="cs-flex-group">
-                        <span class="cs-header">Adresse</span>
-                        <a href="#" class="cs-link">Andreas Straße 7, 47059 Duisburg, Deutschland</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!--Form-->
-        <form class="cs-form" id="cs-form-1403" name="Contact Form" action="https://api.web3forms.com/submit" method="post">
-            <h3 class="cs-h3">Termin vereinbaren</h3>
-            <!-- Access Key for Web3Forms -->
-            <input type="hidden" name="access_key" value="ba0089f2-315a-4c13-9bfd-bbadb25edb58">
-            <input type="hidden" name="redirect" value="https://bauelemente-experte.de/">
-            
-            <!-- Honeypot Spam Protection -->
-            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-            <label class="cs-label">
-                Name
-                <input class="cs-input" required type="text" id="name-1403" name="name" placeholder="Name">
-            </label>
-            <label class="cs-label cs-email">
-                Email
-                <input class="cs-input" required type="email" id="email-1403" name="email" placeholder="Email">
-            </label>
-            <label class="cs-label cs-phone">
-                Telefon
-                <input class="cs-input" required type="tel" id="phone-1403" name="phone" placeholder="Telefon">
-            </label>
-            <label class="cs-label">
-                Nachricht
-                <textarea class="cs-input cs-textarea" required name="message" id="message-1403" placeholder="Ihre Nachricht..."></textarea>
-            </label>
-            <button class="cs-button-solid cs-submit" type="submit">Nachricht senden</button>
-        </form>
-    </div>
-</section>
+        <section id="contact-1403">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span class="cs-topper">Kontakt</span>
+                    <h2 class="cs-title">Kontaktieren Sie uns</h2>
+                    <p class="cs-text">
+                        Wir sind ein Team von leidenschaftlichen und kreativen Fachleuten, die sich darauf spezialisiert haben, maßgeschneiderte Lösungen für Fenster, Türen und Beschattungssysteme zu bieten.
+                    </p>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <picture class="cs-icon-wrapper">
+                                <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="Telefon-Icon" class="cs-icon" width="40" height="40" decoding="async">
+                            </picture>
+                            <div class="cs-flex-group">
+                                <span class="cs-header">Telefon</span>
+                                <a href="tel:+4915771365735" class="cs-link">+49 1577 1365735</a>
+                            </div>
+                        </li>
+                        <li class="cs-li">
+                            <picture class="cs-icon-wrapper">
+                                <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="Email-Icon" class="cs-icon" width="40" height="40" decoding="async">
+                            </picture>
+                            <div class="cs-flex-group">
+                                <span class="cs-header">Email</span>
+                                <a href="mailto:info@bauelemente-experte.de" class="cs-link">info@bauelemente-experte.de</a>
+                            </div>
+                        </li>
+                        <li class="cs-li">
+                            <picture class="cs-icon-wrapper">
+                                <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="Adresse-Icon" class="cs-icon" width="40" height="40" decoding="async">
+                            </picture>
+                            <div class="cs-flex-group">
+                                <span class="cs-header">Adresse</span>
+                                <a href="#" class="cs-link">Andreas Straße 7, 47059 Duisburg, Deutschland</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Form-->
+                <form class="cs-form" id="cs-form-1403" name="Contact Form" action="https://api.web3forms.com/submit" method="post">
+                    <h3 class="cs-h3">Termin vereinbaren</h3>
+                    <!-- Access Key for Web3Forms -->
+                    <input type="hidden" name="access_key" value="ba0089f2-315a-4c13-9bfd-bbadb25edb58">
+                    <input type="hidden" name="redirect" value="https://bauelemente-experte.de/">
+                    
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <label class="cs-label">
+                        Name
+                        <input class="cs-input" required type="text" id="name-1403" name="name" placeholder="Name">
+                    </label>
+                    <label class="cs-label cs-email">
+                        Email
+                        <input class="cs-input" required type="email" id="email-1403" name="email" placeholder="Email">
+                    </label>
+                    <label class="cs-label cs-phone">
+                        Telefon
+                        <input class="cs-input" required type="tel" id="phone-1403" name="phone" placeholder="Telefon">
+                    </label>
+                    <label class="cs-label">
+                        Nachricht
+                        <textarea class="cs-input cs-textarea" required name="message" id="message-1403" placeholder="Ihre Nachricht..."></textarea>
+                    </label>
+                    <button class="cs-button-solid cs-submit" type="submit">Nachricht senden</button>
+                </form>
+            </div>
+        </section>
 
-<!-- ============================================ -->
-<!--          Google Map Iframe Embed             -->
-<!-- ============================================ -->
+        <!-- ============================================ -->
+        <!--          Google Map Iframe Embed             -->
+        <!-- ============================================ -->
 
-<section id="map-1403">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25192.379357939067!2d6.753278!3d51.4308784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c6a4b6b5b7d9%3A0x2ba64f2e8b7a8d3d!2sAndreas%20Stra%C3%9Fe%207%2C%2047059%20Duisburg%2C%20Deutschland!5e0!3m2!1sde!2sde!4v1621404303383!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
+        <section id="map-1403">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25192.379357939067!2d6.753278!3d51.4308784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c6a4b6b5b7d9%3A0x2ba64f2e8b7a8d3d!2sAndreas%20Stra%C3%9Fe%207%2C%2047059%20Duisburg%2C%20Deutschland!5e0!3m2!1sde!2sde!4v1621404303383!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
 
-                                
-
-<!-- ============================================ -->
+    <!-- ============================================ -->
     <!--                   Footer                     -->
     <!-- ============================================ -->
 
